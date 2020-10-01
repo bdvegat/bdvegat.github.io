@@ -45,3 +45,17 @@ function ods2(){
     "De aquí a 2030, potenciar y promover la inclusión social, económica y política de todas las personas."
 ;
 }
+
+function exp1(){
+    document.getElementById("d").innerHTML =
+    '"...Las ciencias siempre han utilizado como herramienta de aprendizaje los laboratorios y las aulas vivas...".'
+;
+}
+
+function exp2(){
+    document.getElementById("d").innerHTML =
+    '“...lo que una persona aprende con las manos, no lo olvida; y el laboratorio es un espacio donde esto se da...”'
+;
+}
+
+

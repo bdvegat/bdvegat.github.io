@@ -10,7 +10,7 @@
     padding: 15px; 
 }
 .ods{
-    max-width: 100px;
+    max-width: 150px;
 }
 .pestal{
     font-family: Impact;
@@ -38,7 +38,7 @@
     position: relative;
     margin: auto;
     grid-gap: 10px;
-    grid-template-areas: "ods antecedentes soluciones"
+    grid-template-areas: "ods soluciones antecedentes"
                          "display display display" 
                          "pestel  actores expertos";                                        
   }
@@ -78,3 +78,6 @@
     grid-area: display;
   }
 
+.exp_img{
+    max-width: 220px;
+}
