@@ -1,0 +1,80 @@
+.container{
+    max-width: 200px;
+    position: relative;
+}
+.img{
+    max-width: 100%;
+}
+.content{
+    max-width: 100%;
+    padding: 15px; 
+}
+.ods{
+    max-width: 100px;
+}
+.pestal{
+    font-family: Impact;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #466995;
+    margin: 20px;
+    max-width: 40px;
+}
+.container_pestal{
+ float: left;
+}
+.container {
+    display: grid;
+    max-width: 1280px;
+    position: relative;
+    margin: auto;
+    grid-gap: 10px;
+}
+
+.grid {
+    display: grid;
+    max-width: 1280px;
+    position: relative;
+    margin: auto;
+    grid-gap: 10px;
+    grid-template-areas: "ods antecedentes soluciones"
+                         "display display display" 
+                         "pestel  actores expertos";                                        
+  }
+  
+  h1, h2 {
+    font-family: monospace;
+    text-align: center;
+  }
+  
+  .ods{
+    grid-area: ods;
+  }
+  
+  .antecedentes {
+    grid-area: antecedentes;
+  }
+  
+  .pestel {
+
+    grid-area: pestel;
+    
+  }
+  
+  .actores {
+    grid-area: actores;
+  }
+  
+  .soluciones {
+    grid-area: soluciones;
+  }
+
+  .expertos {
+    grid-area: expertos;
+  }
+
+  .display {
+    grid-area: display;
+  }
+
