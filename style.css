@@ -83,7 +83,39 @@
 }
 .sol_img{
     max-width: 150px;
+    grid-column: 1;
+}
+.sol_img1{
+    grid-area: s1;
+    position: relative;
+}
+.sol_img2{
+    grid-area: s2;
+    position: relative;
+}
+.sol_img3{
+    grid-area: s3;
+    position: relative;
+}
+.sol_img4{
+    grid-area: s4;
+    position: relative;
+}
+.sol_img5{
+    grid-area: s5;
+    position: relative;
+}
+.sol_img6{
+    grid-area: s6;
+    position: relative;
 }
 .ant{
     max-width: 100%;
+}
+
+.grid_sol{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: " s1 s2 s3"
+                        "s4 s5 s6";
 }
