@@ -17,7 +17,7 @@
     font-size: 40px;
     padding-left: 20px;
     padding-right: 20px;
-    border: 1px solid #466995;
+    border: 8px solid #466995;
     margin: 20px;
     max-width: 40px;
 }
@@ -59,7 +59,7 @@
   .pestel {
 
     grid-area: pestel;
-    
+    color: white;
   }
   
   .actores {
@@ -75,14 +75,14 @@
   }
 
   .display {
-    grid-area: display;
+
   }
 
 .exp_img{
     max-width: 220px;
 }
 .sol_img{
-    max-width: 150px;
+    max-width: 250px;
     grid-column: 1;
 }
 .sol_img1{
@@ -118,4 +118,26 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: " s1 s2 s3"
                         "s4 s5 s6";
+}
+html{
+    background-color: #32af6b;
+}
+h1{
+    color: white;
+    font-size: 35px;
+}
+.display{
+    color: white;
+    min-height: 70px;
+    grid-area: display;
+    border: 5px solid #466995;
+}
+.bibliografia{
+    padding: 20px;
+    color: white;
+}
+#d{
+    font-family: Georgia;
+    font-size: 20px;
+    padding: 5px;
 }
